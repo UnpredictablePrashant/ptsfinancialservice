@@ -19,15 +19,17 @@ const transporter =
       })
     : null;
 
+const recipientEmail = process.env.CONTACT_RECIPIENT ?? 'ptsfinserv369@gmail.com';
+
 export const sendContactEmail = async (payload: ContactPayload) => {
-  if (!transporter || !process.env.CONTACT_RECIPIENT) {
+  if (!transporter) {
     console.info('📨 Contact submission (email disabled, logged for review):', payload);
     return;
   }
 
   await transporter.sendMail({
     from: `"PTS Financial Services" <${process.env.SMTP_USER}>`,
-    to: process.env.CONTACT_RECIPIENT,
+    to: recipientEmail,
     subject: `New enquiry from ${payload.name}`,
     text: `Name: ${payload.name}\nPhone: ${payload.phone}\nMessage: ${payload.message}`,
     html: `

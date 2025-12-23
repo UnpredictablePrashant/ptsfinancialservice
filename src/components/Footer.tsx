@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { navLinks, siteConfig } from '@/lib/site';
+import { locations } from '@/data/locations';
 
 const Footer = () => (
   <footer className="mt-20 border-t border-slate-100 bg-white">
-    <div className="section-container grid gap-8 px-4 py-12 md:grid-cols-4">
+    <div className="section-container grid gap-8 px-4 py-12 md:grid-cols-5">
       <div>
         <p className="font-serif text-2xl text-brand-navy">PTS Financial Services</p>
         <p className="mt-3 text-sm text-slate-600">{siteConfig.tagline}</p>
@@ -52,6 +53,25 @@ const Footer = () => (
         <p className="mt-3 text-sm text-slate-600">{siteConfig.addressLine}</p>
         <p className="mt-1 text-sm text-slate-600">{siteConfig.branchAddress}</p>
         <p className="mt-2 text-sm text-slate-600">{siteConfig.timings}</p>
+      </div>
+      <div>
+        <p className="font-semibold text-brand-navy">West Bengal Desks</p>
+        <p className="mt-2 text-sm text-slate-600">
+          Localised advisory for Siliguri, Kolkata, Durgapur, Asansol, and every West Bengal growth corridor.
+        </p>
+        <ul className="mt-3 space-y-2 text-sm text-slate-600">
+          {locations.map((location) => (
+            <li key={location.slug}>
+              <Link href={`/locations/${location.slug}`} className="text-brand-teal hover:text-brand-gold">
+                {location.city} financial advisor
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <p className="mt-3 text-xs text-slate-500">
+          Find mutual fund distributors, insurance advisors, and loan consultants near Sevoke Road, Ballygunge, Howrah, Bardhaman,
+          Malda, and the Dooars.
+        </p>
       </div>
     </div>
     <div className="border-t border-slate-100 px-4 py-6 text-center text-xs text-slate-500">
