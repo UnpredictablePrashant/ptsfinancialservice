@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Terms & Conditions',
-  description: 'Terms of engagement for PTS Financial Services website and advisory practice.',
+  description: 'Terms of engagement for PTS Finserv website and advisory practice.',
   path: '/terms'
 });
 

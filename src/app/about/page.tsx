@@ -5,8 +5,8 @@ import { siteConfig } from '@/lib/site';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'About PTS Financial Services',
-  description: 'Learn about the mission, ethos, and leadership team at PTS Financial Services.',
+  title: 'About PTS Finserv',
+  description: 'Learn about the mission, ethos, and leadership team at PTS Finserv.',
   path: '/about'
 });
 
@@ -18,7 +18,7 @@ export default function AboutPage() {
         alignment="left"
         eyebrow="About us"
         title="Our story"
-        description="PTS Financial Services is rooted in client-first advisory that balances growth with protection."
+        description="PTS Finserv is rooted in client-first advisory that balances growth with protection."
       />
       <div className="mt-8 space-y-6 text-base text-slate-600">
         <p>

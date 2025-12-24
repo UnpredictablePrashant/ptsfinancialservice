@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Privacy Policy',
-  description: 'Understand how PTS Financial Services collects, uses, and protects your data.',
+  description: 'Understand how PTS Finserv collects, uses, and protects your data.',
   path: '/privacy-policy'
 });
 

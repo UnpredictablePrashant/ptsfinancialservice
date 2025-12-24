@@ -18,7 +18,7 @@ import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Products & Services',
-  description: 'Master list of investment, insurance, and loan services offered by PTS Financial Services.',
+  description: 'Master list of investment, insurance, and loan services offered by PTS Finserv.',
   path: '/services'
 });
 

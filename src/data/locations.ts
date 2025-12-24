@@ -37,7 +37,7 @@ export const locations: LocationDetail[] = [
     ],
     metaTitle: 'Siliguri Financial Advisor | Insurance, Mutual Funds & Loans',
     metaDescription:
-      'PTS Financial Services offers AMFI registered mutual fund, insurance, and loan advisory for families and SMEs across Siliguri, Matigara, and the Dooars.'
+      'PTS Finserv offers AMFI registered mutual fund, insurance, and loan advisory for families and SMEs across Siliguri, Matigara, and the Dooars.'
   },
   {
     slug: 'kolkata-financial-planner',
@@ -62,7 +62,7 @@ export const locations: LocationDetail[] = [
     ],
     metaTitle: 'Kolkata Financial Planner | Insurance, Mutual Funds, Loans',
     metaDescription:
-      'Talk to PTS Financial Services for AMFI registered mutual fund distribution, IRDAI insurance advisory, and loan facilitation across Kolkata.'
+      'Talk to PTS Finserv for AMFI registered mutual fund distribution, IRDAI insurance advisory, and loan facilitation across Kolkata.'
   },
   {
     slug: 'west-bengal-financial-services',
@@ -70,7 +70,7 @@ export const locations: LocationDetail[] = [
     region: 'Statewide Coverage',
     hero: 'Statewide insurance, investment, and loan coordination for clients across West Bengal—urban centers, industrial towns, and rural growth corridors.',
     description:
-      'PTS Financial Services manages portfolios for clients in Durgapur, Asansol, Malda, Bardhaman, Burdwan, and the coastal belt. Our hybrid model combines digital onboarding with on-ground documentation support in every district.',
+      'PTS Finserv manages portfolios for clients in Durgapur, Asansol, Malda, Bardhaman, Burdwan, and the coastal belt. Our hybrid model combines digital onboarding with on-ground documentation support in every district.',
     focusAreas: [
       'Insurance literacy workshops for MSMEs in Durgapur and Haldia',
       'Agriculture-linked protection, crop insurance, and wealth creation strategies for Burdwan and Malda',

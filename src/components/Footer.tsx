@@ -6,7 +6,7 @@ const Footer = () => (
   <footer className="mt-20 border-t border-slate-100 bg-white">
     <div className="section-container grid gap-8 px-4 py-12 md:grid-cols-5">
       <div>
-        <p className="font-serif text-2xl text-brand-navy">PTS Financial Services</p>
+        <p className="font-serif text-2xl text-brand-navy">PTS Finserv</p>
         <p className="mt-3 text-sm text-slate-600">{siteConfig.tagline}</p>
         <p className="mt-4 text-xs text-slate-500">
           AMFI Registered Mutual Fund Distributor (ARN-281995) · IRDAI Registered Insurance Advisor (ICICI Prudential Agent Code

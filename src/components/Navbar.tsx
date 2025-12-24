@@ -14,10 +14,10 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-slate-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <Link href="/" className="flex items-center gap-2" aria-label="PTS Financial Services Home">
-          <Image src="/images/logo.jpg" alt="PTS Financial Services logo" width={48} height={48} className="h-10 w-10 rounded-full object-cover" priority />
+        <Link href="/" className="flex items-center gap-2" aria-label="PTS Finserv Home">
+          <Image src="/images/logo.jpg" alt="PTS Finserv logo" width={48} height={48} className="h-10 w-10 rounded-full object-cover" priority />
           <span className="font-serif text-xl text-brand-navy">
-            PTS <span className="text-brand-gold">Financial</span>
+            PTS <span className="text-brand-gold">Finserv</span>
           </span>
         </Link>
         <nav className="hidden gap-6 text-sm font-semibold text-slate-700 md:flex">

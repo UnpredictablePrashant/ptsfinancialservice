@@ -28,7 +28,7 @@ export const sendContactEmail = async (payload: ContactPayload) => {
   }
 
   await transporter.sendMail({
-    from: `"PTS Financial Services" <${process.env.SMTP_USER}>`,
+    from: `"PTS Finserv" <${process.env.SMTP_USER}>`,
     to: recipientEmail,
     subject: `New enquiry from ${payload.name}`,
     text: `Name: ${payload.name}\nPhone: ${payload.phone}\nMessage: ${payload.message}`,

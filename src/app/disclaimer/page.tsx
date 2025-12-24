@@ -4,7 +4,7 @@ import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
   title: 'Disclaimer',
-  description: 'Disclaimers for PTS Financial Services website and advisory services.',
+  description: 'Disclaimers for PTS Finserv website and advisory services.',
   path: '/disclaimer'
 });
 
@@ -23,8 +23,8 @@ export default function DisclaimerPage() {
           regulatory norms. Past performance or illustrations do not guarantee future outcomes.
         </p>
         <p>
-          PTS Financial Services is not responsible for decisions made solely based on website content. Please schedule a
-          consultation for tailored recommendations.
+          PTS Finserv is not responsible for decisions made solely based on website content. Please schedule a consultation for
+          tailored recommendations.
         </p>
       </div>
     </div>

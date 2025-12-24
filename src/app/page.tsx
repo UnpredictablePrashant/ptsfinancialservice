@@ -27,7 +27,7 @@ import { buildMetadata } from '@/lib/seo';
 import { localBusinessJsonLd } from '@/lib/structuredData';
 
 export const metadata = buildMetadata({
-  title: 'PTS Financial Services',
+  title: 'PTS Finserv',
   description: siteConfig.description,
   path: '/'
 });
@@ -58,7 +58,7 @@ export default function HomePage() {
     <>
       <section className="section-container grid gap-12 px-4 py-16 lg:grid-cols-2">
         <div>
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-gold">PTS Financial Services</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-brand-gold">PTS Finserv</p>
           <h1 className="mt-4 font-serif text-4xl text-brand-navy sm:text-5xl">Trusted partner for insurance & investment growth</h1>
           <p className="mt-4 text-base text-slate-600">
             Empowering Indian families with compliant investment, insurance, and credit advisory. We combine research-driven

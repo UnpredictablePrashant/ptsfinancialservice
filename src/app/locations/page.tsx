@@ -9,7 +9,7 @@ import Link from 'next/link';
 export const metadata = buildMetadata({
   title: 'Locations | West Bengal Advisory Desks',
   description:
-    'PTS Financial Services serves clients across Kolkata, Siliguri, and every West Bengal district with AMFI registered mutual fund & IRDAI insurance advisory.',
+    'PTS Finserv serves clients across Kolkata, Siliguri, and every West Bengal district with AMFI registered mutual fund & IRDAI insurance advisory.',
   path: '/locations'
 });
 

@@ -25,7 +25,7 @@ const differentiators = [
 
 export const metadata = buildMetadata({
   title: 'Why Choose Us',
-  description: 'Discover the differentiators that make PTS Financial Services a trusted financial partner.',
+  description: 'Discover the differentiators that make PTS Finserv a trusted financial partner.',
   path: '/why-us'
 });
 

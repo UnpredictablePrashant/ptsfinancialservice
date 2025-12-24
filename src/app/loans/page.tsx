@@ -45,8 +45,8 @@ export default function LoansPage() {
         </div>
       </div>
       <p className="mt-6 text-xs text-slate-500">
-        Loan approvals are subject to lender underwriting. PTS Financial Services facilitates documentation and comparisons but
-        does not guarantee sanctions.
+        Loan approvals are subject to lender underwriting. PTS Finserv facilitates documentation and comparisons but does not
+        guarantee sanctions.
       </p>
       <div className="mt-10">
         <CTASection

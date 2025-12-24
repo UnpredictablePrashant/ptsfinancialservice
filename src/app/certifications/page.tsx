@@ -24,7 +24,7 @@ const certifications = [
 
 export const metadata = buildMetadata({
   title: 'Certifications & Registrations',
-  description: 'Regulatory details of PTS Financial Services.',
+  description: 'Regulatory details of PTS Finserv.',
   path: '/certifications'
 });
 

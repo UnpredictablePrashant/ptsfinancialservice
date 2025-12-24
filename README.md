@@ -1,6 +1,6 @@
-# PTS Financial Services Website
+# PTS Finserv Website
 
-Production-ready marketing site for **PTS Financial Services** built with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS**, **React Hook Form + Zod**, and **Nodemailer**. Designed for fast, accessible, mobile-first delivery and deploys seamlessly to Vercel.
+Production-ready marketing site for **PTS Finserv** built with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS**, **React Hook Form + Zod**, and **Nodemailer**. Designed for fast, accessible, mobile-first delivery and deploys seamlessly to Vercel.
 
 ## Tech Stack & Highlights
 - Next.js 14 App Router with metadata-driven SEO, OpenGraph, and sitemap/robots.

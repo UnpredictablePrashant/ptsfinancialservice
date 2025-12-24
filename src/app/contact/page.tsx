@@ -7,7 +7,7 @@ import { localBusinessJsonLd } from '@/lib/structuredData';
 
 export const metadata = buildMetadata({
   title: 'Contact',
-  description: 'Reach PTS Financial Services for consultations via phone, WhatsApp, or the contact form.',
+  description: 'Reach PTS Finserv for consultations via phone, WhatsApp, or the contact form.',
   path: '/contact'
 });
 
@@ -54,8 +54,7 @@ export default function ContactPage() {
           </div>
         </div>
         <p className="mt-4 text-xs text-slate-500">
-          By submitting this form you consent to PTS Financial Services contacting you via phone, email, or WhatsApp. We never
-          sell your data.
+          By submitting this form you consent to PTS Finserv contacting you via phone, email, or WhatsApp. We never sell your data.
         </p>
       </div>
       <script
